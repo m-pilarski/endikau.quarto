@@ -1,0 +1,70 @@
+baseURL = "https://example.org/"
+title = "EnDiKaU"
+theme = "endikau_theme"
+
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
+
+[languages]
+    [languages.de]
+        disabled = false
+        languageCode = "de-DE"
+        languageDirection = "ltr"
+        languageName = "Deutsch"
+
+    [languages.en]
+        disabled = false
+        languageCode = "en-US"
+        languageDirection = "ltr"
+        languageName = "English"
+
+
+[menu]
+    [[menu.main]]
+        identifier = "basics"
+        name = "Grundlagen"
+        pre = "fa-solid fa-water"
+        url = "/basics/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "methods"
+        name = "Methoden"
+        pre = "fa-solid fa-calculator"
+        url = "/methods/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "sentiment"
+        parent = "methods"
+        name = "Sentimentanalyse"
+        url = "/methods/sentiment/"
+        weight = 1
+
+    [[menu.main]]
+        identifier = "topic"
+        parent = "methods"
+        name = "Themenmodellierung"
+        url = "/methods/topic/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "case-studies"
+        name = "Fallstudien"
+        pre = "fa-solid fa-earth-americas"
+        url = "/case-studies/"
+        weight = 3
+
+    [[menu.main]]
+        identifier = "case-study-1"
+        parent = "case-studies"
+        name = "Fallstudie I"
+        url = "/case-studies/case-study-1/"
+        weight = 1
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

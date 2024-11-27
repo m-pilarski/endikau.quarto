@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Methods on EnDiKaU</title>
+    <link>http://localhost:13376/methods/</link>
+    <description>Recent content in Methods on EnDiKaU</description>
+    <generator>Hugo</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Mon, 25 Nov 2024 14:25:49 +0100</lastBuildDate>
+    <atom:link href="http://localhost:13376/methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sentimentanalyse</title>
+      <link>http://localhost:13376/methods/sentiment/</link>
+      <pubDate>Mon, 25 Nov 2024 14:25:49 +0100</pubDate>
+      <guid>http://localhost:13376/methods/sentiment/</guid>
+      <description>&lt;h2 id=&#34;einleitung&#34;&gt;Einleitung&lt;/h2&gt;&#xA;&lt;p&gt;Sentimentanalyse ist ein Verfahren der Data Science, das darauf abzielt, Meinungen, Emotionen und Einstellungen in Textdaten automatisch zu identifizieren und zu klassifizieren. Unternehmen setzen Sentimentanalyse häufig ein, um Kundenfeedback aus sozialen Medien, Rezensionen oder Umfragen zu analysieren. So können sie wertvolle Einblicke in Bereiche wie die Kundenzufriedenheit oder Markttrends gewinnen.&lt;/p&gt;&#xA;&lt;details class=&#34;code-fold&#34;&gt;&#xA;&lt;summary&gt;Code&lt;/summary&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;plot&lt;/span&gt;(mtcars&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;mpg, mtcars&lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;wt)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;&#xA;&lt;img src=&#34;index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png&#34; width=&#34;768&#34; /&gt;&#xA;&lt;h2 id=&#34;lexikonbasierte-sentimentanalyse&#34;&gt;Lexikonbasierte Sentimentanalyse&lt;/h2&gt;&#xA;&lt;h3 id=&#34;funktionsweise&#34;&gt;Funktionsweise&lt;/h3&gt;&#xA;&lt;p&gt;Die lexikonbasierte Sentimentanalyse ist die traditionelle Form des Verfahrens, bei der vorab definierte Wörterlisten, sogenannte Sentimentlexika, verwendet werden, um die Stimmung eines Textes zu bestimmen. Diese Lexika enthalten Wörter, die mit positiven oder negativen Gefühlen assoziiert sind, oft mit einem entsprechenden Gewicht, das die Stärke des Ausdrucks angibt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

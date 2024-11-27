@@ -1,0 +1,6 @@
+/.quarto/
+condaenv/
+renv/
+.Rproj.user
+.Rprofile
+.Renviron
