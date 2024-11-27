@@ -1,1 +1,0 @@
-function adjustNavbarPadding(){var e=document.querySelector("#page-navbar");!e||(document.body.style["padding-top"]=e.scrollHeight+"px")}window.addEventListener("load",adjustNavbarPadding),window.addEventListener("resize",adjustNavbarPadding)

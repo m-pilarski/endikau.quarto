@@ -6,4 +6,16 @@ format:
     code-fold: true
 execute:
   warning: false
-
+  echo: true
+  message: false
+  cache: false
+engine: knitr
+knitr:
+  opts_chunk:
+    cache.path: .cache/
+    cache-path: .cache/
+    dev: ragg_png
+    out.width: "100%"
+editor: source
+editor_options:
+  chunk_output_type: console

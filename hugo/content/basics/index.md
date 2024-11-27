@@ -22,7 +22,7 @@ plot(mtcars$mpg, mtcars$wt)
 
 </details>
 
-<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" width="768" />
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" style="width:100.0%" />
 
 ## Von Chaos zu Klarheit: Wie Sie aus unstrukturierten Daten Wissen schöpfen
 
