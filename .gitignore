@@ -1,6 +1,7 @@
 /.quarto/
 condaenv/
 renv/
+hugo/public/
 .Rproj.user
 .Rprofile
 .Renviron
