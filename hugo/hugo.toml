@@ -51,17 +51,17 @@ defaultContentLanguageInSubdir = false
         weight = 2
 
     [[menu.main]]
-        identifier = "case-studies"
+        identifier = "case_studies"
         name = "Fallstudien"
         pre = "fa-solid fa-earth-americas"
-        url = "/case-studies/"
+        url = "/case_studies/"
         weight = 3
 
     [[menu.main]]
-        identifier = "case-study-1"
-        parent = "case-studies"
+        identifier = "case_study-1"
+        parent = "case_studies"
         name = "Fallstudie I"
-        url = "/case-studies/case-study-1/"
+        url = "/case_studies/case_study-1/"
         weight = 1
 
 [markup]

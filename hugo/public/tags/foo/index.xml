@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Foo on EnDiKaU</title>
-    <link>http://localhost:13376/tags/foo/</link>
+    <link>http://localhost:1313/tags/foo/</link>
     <description>Recent content in Foo on EnDiKaU</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
     <lastBuildDate>Mon, 25 Nov 2024 14:25:49 +0100</lastBuildDate>
-    <atom:link href="http://localhost:13376/tags/foo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/foo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grundlagen</title>
-      <link>http://localhost:13376/basics/</link>
+      <link>http://localhost:1313/basics/</link>
       <pubDate>Mon, 25 Nov 2024 14:25:49 +0100</pubDate>
-      <guid>http://localhost:13376/basics/</guid>
+      <guid>http://localhost:1313/basics/</guid>
       <description>&lt;h2 id=&#34;verborgene-schätze-das-ungenutzte-wissen-in-kommunikationsdaten&#34;&gt;Verborgene Schätze: Das ungenutzte Wissen in Kommunikationsdaten&lt;/h2&gt;&#xA;&lt;p&gt;In unserer zunehmend digitalisierten Welt entstehen täglich riesige Datenmengen, die Unternehmen Zugang zu einem beachtlichen Wissensschatz bieten. Besonders Kommunikationsdaten sind durch die fortschreitende Digitalisierung rasant gewachsen und eröffnen Unternehmen neue, wertvolle Informationsquellen. Mit diesen Daten lassen sich fundierte Entscheidungen schneller treffen, Kundenbedürfnisse besser verstehen und Prozesse sowie Produkte gezielt optimieren. Zudem erspart die Automatisierung solcher Textanalysen erheblich Zeit, sodass Ressourcen effizienter genutzt werden können. Tagtäglich sammeln Unternehmen eine Vielzahl interner Textdaten, wie elektronische Personalakten, Produktbeschreibungen und Support-Tickets. Hinzu kommt eine Flut an externen Daten aus sozialen Medien, Online-Bewertungen und Nachrichten. Obwohl diese Daten ein enormes Potenzial für die Informationsgewinnung bieten, bleiben sie oft ungenutzt. Der Grund? Sie sind unstrukturiert und wirken dadurch auf den ersten Blick schwieriger auszuwerten. Während numerische Daten geordnet in Datensätzen vorliegen, sind Textdaten wie E-Mails oder Kundenrezensionen weniger zugänglich und komplexer zu analysieren. Für viele Unternehmen sind diese wertvollen Datenquellen zwar vorhanden, werden aber nicht systematisch erfasst. Dadurch geht ein enormer Wissensschatz verloren, der vielfältig genutzt werden könnte &amp;ndash; sei es zur Verbesserung von Kundenservice, zur Innovation von Produkten oder zur Optimierung interner Abläufe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Startseite</title>
-      <link>http://localhost:13376/</link>
+      <link>http://localhost:1313/</link>
       <pubDate>Mon, 25 Nov 2024 14:25:49 +0100</pubDate>
-      <guid>http://localhost:13376/</guid>
+      <guid>http://localhost:1313/</guid>
       <description>&lt;p&gt;lalalalal&lt;/p&gt;</description>
     </item>
   </channel>

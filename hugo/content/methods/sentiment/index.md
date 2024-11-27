@@ -11,17 +11,6 @@ draft: true
 
 Sentimentanalyse ist ein Verfahren der Data Science, das darauf abzielt, Meinungen, Emotionen und Einstellungen in Textdaten automatisch zu identifizieren und zu klassifizieren. Unternehmen setzen Sentimentanalyse häufig ein, um Kundenfeedback aus sozialen Medien, Rezensionen oder Umfragen zu analysieren. So können sie wertvolle Einblicke in Bereiche wie die Kundenzufriedenheit oder Markttrends gewinnen.
 
-<details class="code-fold">
-<summary>Code</summary>
-
-``` r
-plot(mtcars$mpg, mtcars$wt)
-```
-
-</details>
-
-<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-1-1.png" width="768" />
-
 ## Lexikonbasierte Sentimentanalyse
 
 ### Funktionsweise
