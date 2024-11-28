@@ -1,10 +1,10 @@
 condaenv_path <- here::here("condaenv")
 
-reticulate::conda_create(envname=condaenv_path, python_version="3.10")
-
-reticulate::conda_install(
-  envname=condaenv_path, packages="conda-forge::hugo"
-)
+# reticulate::conda_create(envname=condaenv_path, python_version="3.10")
+#
+# reticulate::conda_install(
+#   envname=condaenv_path, packages="conda-forge::hugo"
+# )
 
 serve_hugo <- function(.condaenv_path, .port){
 

@@ -1,4 +1,5 @@
 /.quarto/
+**/.ipynb_checkpoints/
 condaenv/
 renv/
 hugo/public/

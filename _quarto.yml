@@ -5,15 +5,13 @@ format:
   hugo-md:
     code-fold: true
 execute:
+  echo: false
   warning: false
-  echo: true
   message: false
   cache: false
 engine: knitr
 knitr:
   opts_chunk:
-    cache.path: .cache/
-    cache-path: .cache/
     dev: ragg_png
     out.width: "100%"
 editor: source
