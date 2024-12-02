@@ -1,7 +1,7 @@
 $enable-grid-classes: false;
 $enable-cssgrid: true;
 
-$font-family-base: "Open Sans", "Segoe UI", Roboto, "IBM Plex Sans", "Noto Sans", sans-serif;
+$font-family-base: "Open Sans", "Segoe UI", "Roboto", "IBM Plex Sans", "Noto Sans", sans-serif;
 $font-size-base: 1rem;
 
 $body-bg: #fefffc;
@@ -14,12 +14,6 @@ $error: #e88471;
 @import "../vendor/bootstrap/scss/functions";
 @import "../vendor/bootstrap/scss/variables";
 @import "../vendor/bootstrap/scss/mixins";
-
-/* 
-$theme-colors: map-merge($theme-colors, (
-  "primary": $primary
-));
-*/
 
 @import "../vendor/bootstrap/scss/bootstrap";
 

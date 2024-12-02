@@ -32,6 +32,14 @@
 
 {{ $twemoji := resources.Get "vendor/twemoji/js/twemoji.min.js" | minify | fingerprint }}
 <script src="{{ $twemoji.RelPermalink }}"></script>
+<script>
+    function twemojiParse( element ) {
+        twemoji.parse( element, { base: '/assets/vendor/twemoji/', folder: 'svg', ext: '.svg' } ); 
+    }
+    twemojiParse( document )
+    window.onload = function() { twemojiParse( document ) }
+</script>
+<style> img.emoji { cursor: pointer; height: 1em; width: 1em; margin: 0 .05em 0 .1em; vertical-align: -0.1em; } </style>
 
 {{ $bootstrap := resources.Get "vendor/bootstrap/js/bootstrap.bundle.min.js" | minify | fingerprint }}
 <script src="{{ $bootstrap.RelPermalink }}"></script>
@@ -39,28 +47,18 @@
 {{ $fontawesome := resources.Get "vendor/fontawesome/js/all.min.js" | minify | fingerprint }}
 <script src="{{ $fontawesome.RelPermalink }}"></script>
 
-{{ $iframeResizer := resources.Get "vendor/iframe-resizer/js/iframe-resizer.parent.js" | minify | fingerprint }}
-<script src="{{ $iframeResizer.RelPermalink }}"></script>
-
 {{ $wordcloud := resources.Get "vendor/wordcloud2/js/wordcloud2.js" | minify | fingerprint }}
 <script src="{{ $wordcloud.RelPermalink }}"></script>
 
 {{ $headroom := resources.Get "vendor/headroom/js/headroom.min.js" | minify | fingerprint }}
 <script src="{{ $headroom.RelPermalink }}"></script>
-
-<script>window.onload = function() { twemoji.parse( document, { base: '/assets/vendor/twemoji/', folder: 'svg', ext: '.svg' } ); }</script>
-<style>img.emoji { cursor: pointer; height: 1em; width: 1em; margin: 0 .05em 0 .1em; vertical-align: -0.1em; }</style>
-
-
 <script type="module">
     document.addEventListener("DOMContentLoaded", function () {
-        const header = document.querySelector("#page-navbar-container");
-        if (header) {
-          const headroom = new Headroom(header);
-          headroom.init();
-        } else {
-          console.error("Header element not found for Headroom.js");
-        }
+        var pageNavbarContainer = document.querySelector("#page-navbar-container");
+        var headroom = new Headroom( pageNavbarContainer, {
+            offset: 10, tolerance: 10,
+        });
+        headroom.init();
     });
 </script>
 <style>
@@ -75,3 +73,6 @@
         transform: translateY(-100%);
     }
 </style>
+
+{{ $iframeResizer := resources.Get "vendor/iframe-resizer/js/iframe-resizer.parent.js" | minify | fingerprint }}
+<script src="{{ $iframeResizer.RelPermalink }}"></script>

@@ -5,6 +5,7 @@ function adjustNavbarPadding() {
   }
 }
 
+adjustNavbarPadding();
 window.addEventListener('load', adjustNavbarPadding);
 window.addEventListener('resize', adjustNavbarPadding);
 

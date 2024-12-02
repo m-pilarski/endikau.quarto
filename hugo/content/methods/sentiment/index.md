@@ -29,6 +29,9 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
 <span class="fa-li"><i class='fa-solid fa-thumbs-down text-primary'></i></span>Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht" kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.
 </li>
 </ul>
+
+### Ausprobieren
+
 <iframe id="c944c404" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
 </iframe>
 <script>$(document).ready(function(){  $('iframe#c944c404').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/');});</script>

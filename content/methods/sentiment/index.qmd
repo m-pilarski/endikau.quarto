@@ -26,9 +26,12 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
     <li><span class='fa-li'><i class='fa-solid fa-thumbs-down text-primary'></i></span>Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht“ kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.</li>
 </ul>
 
-<iframe id="c944c404" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;"></iframe>
-<script>$(document).ready(function(){  $('iframe#c944c404').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/');});</script>
-<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#c944c404');</script>
+### Ausprobieren
+
+```{r}
+#| output: asis
+cat(purrr::map_chr(endikau.site:::nd_iframe_app("https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/"), as.character), sep="\n")
+```
 
 ## Machine-Learning-Basierte Sentimentanalyse
 
@@ -38,6 +41,7 @@ Im Gegensatz zu lexikonbasierten Ansätzen bieten vortrainierte Modelle, die auf
 
 ### Ausprobieren
 
-<iframe id="de8fe906" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;"></iframe>
-<script>$(document).ready(function(){  $('iframe#de8fe906').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_trans/');});</script>
-<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#de8fe906');</script>
+```{r}
+#| output: asis
+cat(purrr::map_chr(endikau.site:::nd_iframe_app("https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_trans/"), as.character), sep="\n")
+```

@@ -31,4 +31,4 @@ serve_hugo <- function(.condaenv_path, .port){
 
 }
 
-serve_hugo(condaenv_path, 13376)
+serve_hugo(condaenv_path, 13377)

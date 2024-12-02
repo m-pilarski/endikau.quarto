@@ -1,10 +1,14 @@
-+++
-title = 'Themenmodellierung'
-date = 2024-11-25T14:25:49+01:00
-draft = true
-tags = ["foo", "bar"]
-language = "de"
-+++
+---
+title: "Themenmodellierung"
+date: "2024-11-25T14:25:49+01:00"
+draft: true
+tags: 
+  - "foo"
+  - "bar"
+---
+
+{{{< bs_card card-title="Test" card-text="Lorem Ipsum" >}}}
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor 
@@ -29,3 +33,6 @@ suspendisse potenti nullam ac. Tincidunt id aliquet risus feugiat in. Varius
 quam quisque id diam vel. Egestas erat imperdiet sed euismod nisi. Scelerisque 
 felis imperdiet proin fermentum leo vel orci porta non. Ut faucibus pulvinar 
 elementum integer. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl.
+
+{{{< bs_card card-title="Test" card-text="Lorem Ipsum" >}}}
+

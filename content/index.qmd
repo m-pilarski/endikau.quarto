@@ -1,10 +1,63 @@
 ---
-title: 'Startseite'
-date: '2024-11-25T14:25:49+01:00'
+title: "Einsatz neuer Daten in Kommunikationszusammenhängen auf Unternehmensebene"
+figtitle: "💾"
+date: "2024-11-25T14:25:49+01:00"
 draft: true
-tags: ["foo", "bar"]
-format: hugo-md
-output-file: _index.md
+tags: 
+    - "foo"
+    - "bar"
+format: "hugo-md"
+output-file: "_index.md"
+layout: "single"
+toc_show: false
 ---
 
-lalalalal
+Kommunikationsdaten umfassen Informationen, die bei der Interaktion zwischen Personen oder zwischen Personen und Geräten anfallen. Dazu gehören nicht nur die unmittelbaren Inhalte der Kommunikation, sondern auch verschiedene Metadaten wie Sender- und Empfängerinformationen, Zeitstempel, Betreffzeilen und mehr. Diese Daten können aus verschiedenen Quellen stammen, wie E-Mails, Textnachrichten, Chatprotokollen, sozialen Medien, Kundenanfragen und Kundenbefragungen. Für hessische Unternehmen können diese Kommunikationsdaten eine wertvolle Informationsquelle darstellen, deren Analyse wirtschaftlichen Mehrwert generieren kann..
+
+<!-- {{{< dropcap "📜" >}}}  -->
+Da diese Daten häufig in Textform vorliegen, eröffnen computergestützte Ansätze neue Möglichkeiten zur Auswertung. Im Vergleich zur manuellen Analyse ermöglichen diese Technologien die automatisierte Bearbeitung großer Datenmengen mit angemessenem Aufwand.
+
+```{r}
+# library(ggraph)
+# library(tidygraph)
+
+# set_graph_style(plot_margin = margin(1,1,1,1))
+# graph <- as_tbl_graph(highschool)
+
+# # Not specifying the layout - defaults to "auto"
+# ggraph(graph) + 
+#   geom_edge_link(aes(colour = factor(year))) + 
+#   geom_node_point() +
+#   scale_edge_color_manual(values=rcartocolor::carto_pal(2, "Temps")) +
+#   theme_void() +
+#   theme(legend.position="none") + 
+#   coord_equal()
+```
+
+{{{< div class="text-white text-bg-primary rounded p-3 mb-4" >}}} Auf dieser Webseite werden einige dieser **Methoden** erklärt und anhand von **Fallstudien** exemplarisch demonstriert. {{{< /div >}}}
+
+## Methoden
+
+{{{< div class="grid pb-4" >}}} 
+    {{{< div class="g-col-12 g-col-xl-6" >}}} 
+        {{{< bs_card card_img_src="assets/img/img_example-1.jpg" card_title="Sentimentanalyse" card_text="Sentimentanalyse ist ein Verfahren der Data Science, das darauf abzielt, Meinungen, Emotionen und Einstellungen in Textdaten automatisch zu identifizieren und zu klassifizieren." card_href="/methods/sentiment" >}}}
+    {{{< /div >}}} 
+    {{{< div class="g-col-12 g-col-xl-6" >}}} 
+        {{{< bs_card card_img_src="assets/img/img_example-2.jpg" card_title="Themenmodellierung" card_text="Lorem Ipsum" card_href="/methods/topic" >}}}
+    {{{< /div >}}} 
+{{{< /div >}}} 
+
+
+## Fallstudien
+
+{{{< div class="grid" >}}} 
+    {{{< div class="g-col-12 g-col-xl-6" >}}} 
+        {{{< bs_card card_img_src="assets/img/img_example-3.jpg" card_title="Fallstudie I" card_text="Lorem Ipsum" card_href="/case_studies/case_study-1" >}}}
+    {{{< /div >}}} 
+    {{{< div class="g-col-12 g-col-xl-6" >}}} 
+        {{{< bs_card card_img_src="assets/img/img_example-4.jpg" card_title="Fallstudie II" card_text="Lorem Ipsum" card_href="/case_studies/case_study-2" >}}}
+    {{{< /div >}}} 
+    {{{< div class="g-col-12 g-col-xl-6" >}}} 
+        {{{< bs_card card_img_src="assets/img/img_example-5.jpg" card_title="Fallstudie III" card_text="Lorem Ipsum" card_href="/case_studies/case_study-3" >}}}
+    {{{< /div >}}} 
+{{{< /div >}}}
