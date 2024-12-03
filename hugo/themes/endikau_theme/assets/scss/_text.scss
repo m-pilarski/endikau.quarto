@@ -83,28 +83,19 @@
 }
 
 .dropcap{
-  // color: white;
-  // background-color: black;
-  // border-radius: 2px;
-  // box-shadow: 3px 3px 0 red;
   font-size: 300%;
   padding: 0px 0px;
   margin-top: 0;
   margin-right: 6px;
   float: left;
-  // position: absolute;
 }
 
 
-// .en-intro { p { font-style: italic; } }
-
 .bubble {
   display: inline-block;
-  // line-height: 1;
   white-space: nowrap;
   text-align: center;
   vertical-align: baseline;
-  // float: left;
   padding: 0 0.5rem;
   border-radius: 0;
   &:empty { display: none; }

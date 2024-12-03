@@ -22,8 +22,8 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
 ### Vor- und Nachteile
 
 <ul class='fa-ul' style='margin-left: var(--fa-li-margin, 1.5em);'>
-    <li><span class='fa-li'><i class='fa-solid fa-thumbs-up text-primary'></i></span>Die lexikonbasierte Sentimentanalyse ist aufgrund ihrer einfachen Implementierung und des geringen Bedarfs an Rechen- und Speicherkapazität besonders für kleine Unternehmen mit begrenzten Ressourcen attraktiv.</li>
-    <li><span class='fa-li'><i class='fa-solid fa-thumbs-down text-primary'></i></span>Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht“ kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.</li>
+    <li><span class='fa-li' style='color: #cf597e !important;'><i class='fa-solid fa-thumbs-up' style='color: #39b185 !important;'></i></span>Die lexikonbasierte Sentimentanalyse ist aufgrund ihrer einfachen Implementierung und des geringen Bedarfs an Rechen- und Speicherkapazität besonders für kleine Unternehmen mit begrenzten Ressourcen attraktiv.</li>
+    <li><span class='fa-li' style='color: #cf597e !important;'><i class='fa-solid fa-thumbs-down'></i></span>Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht“ kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.</li>
 </ul>
 
 ### Ausprobieren

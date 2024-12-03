@@ -2,7 +2,8 @@
 **/.ipynb_checkpoints/
 condaenv/
 renv/
-hugo/public/
+public/
 .Rproj.user
 .Rprofile
 .Renviron
+hugo/resources/_gen/
