@@ -6,6 +6,10 @@ condaenv_path <- here::here("condaenv")
 #   envname=condaenv_path, packages="conda-forge::hugo"
 # )
 
+yaml::read_yaml("environment.yml") |>
+  purrr::discard_at("prefix") |>
+  yaml::write_yaml("environment.yml")
+
 serve_hugo <- function(.condaenv_path, .port){
 
   .hugo_path <- fs::path(.condaenv_path, "bin", "hugo")
