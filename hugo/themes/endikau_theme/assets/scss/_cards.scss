@@ -14,3 +14,13 @@
 	height: auto;
 	background-color: #e9ebe5;
 }
+
+@media (hover: hover) {
+	.nd-card:hover {
+		--bs-card-border-color: rgba(var(--bs-primary-rgb), 0.5) !important;
+		outline: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+		outline-color: rgba(var(--bs-primary-rgb), 0.5) !important;
+		outline-width: 4px !important;
+	}
+}
+	

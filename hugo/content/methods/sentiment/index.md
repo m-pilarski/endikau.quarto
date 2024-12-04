@@ -32,10 +32,10 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
 
 ### Ausprobieren
 
-<iframe id="c944c404" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
+<iframe id="iframec944c404" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
 </iframe>
-<script>$(document).ready(function(){  $('iframe#c944c404').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/');});</script>
-<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#c944c404');</script>
+<script>$(document).ready(function(){  $('iframe#iframec944c404').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/');});</script>
+<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#iframec944c404');</script>
 
 ## Machine-Learning-Basierte Sentimentanalyse
 
@@ -45,7 +45,7 @@ Im Gegensatz zu lexikonbasierten Ansätzen bieten vortrainierte Modelle, die auf
 
 ### Ausprobieren
 
-<iframe id="de8fe906" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
+<iframe id="iframede8fe906" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
 </iframe>
-<script>$(document).ready(function(){  $('iframe#de8fe906').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_trans/');});</script>
-<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#de8fe906');</script>
+<script>$(document).ready(function(){  $('iframe#iframede8fe906').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_trans/');});</script>
+<script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#iframede8fe906');</script>

@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card nd-card">
     {{- if .Get "card_img_src" -}}<img src='{{ .Get "card_img_src" }}' class='card-img-top card-image' {{- if .Get "card_img_alt" -}} alt='{{ .Get "card_img_alt" }}' {{ end }}>{{ end }}
     {{- if .Get "card_title" -}}<div class='card-header'>{{ .Get "card_title" }}</div> {{ end }}
     <div class="card-body">
