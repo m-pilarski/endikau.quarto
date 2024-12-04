@@ -22,16 +22,7 @@ Unstrukturierte Textdaten wie E-Mails, Kundenrezensionen oder interne Dokumente 
 
 Die Kombination dieser Methoden eröffnet eine Vielzahl von Möglichkeiten für Unternehmen: Von der Optimierung des Kundenservice über die Entwicklung neuer Produkte bis hin zur Identifizierung von Markttrends. 
 
-
-
 {{{< fa-solid "plus" >}}}
-
-```{r}
-plot(mtcars$mpg, mtcars$wt)
-```
-
-
-
 
 ### Strategische Vorteile durch Textdaten
 

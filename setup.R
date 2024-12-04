@@ -1,38 +1,19 @@
-condaenv_path <- here::here("condaenv")
+if(!"pak" %in% installed.packages()){install.packages("pak")}
+pak::pkg_install("callr")
 
-# reticulate::conda_create(envname=condaenv_path, python_version="3.10")
-#
-# reticulate::conda_install(
-#   envname=condaenv_path, packages="conda-forge::hugo"
-# )
+callr::r(\(){
+  renv::init()
+})
 
-yaml::read_yaml("environment.yml") |>
-  purrr::discard_at("prefix") |>
-  yaml::write_yaml("environment.yml")
+callr::r(\(.conda_envname){
+  .python_path <- reticulate::conda_create(envname=.conda_envname, python_version="3.10")
+  reticulate::conda_install(envname=.conda_envname, packages="conda-forge::hugo")
+  renv::use_python(.python_path, type="conda", name=.conda_envname)
+}, args=list(.conda_envname="endikau.site.condaenv"))
 
-serve_hugo <- function(.condaenv_path, .port){
-
-  .hugo_path <- fs::path(.condaenv_path, "bin", "hugo")
-
-  processx::run(.hugo_path, wd=here::here("hugo"))
-
-  on.exit({.hugo_server$kill()})
-
-  .hugo_server <- processx::process$new(
-    .hugo_path,
-    args=c(
-      "server",
-      "--port", .port,
-      "--buildDrafts",
-      "--buildFuture"
-    ),
-    wd=here::here("hugo")
-  )
-
-  utils::browseURL(paste0("http://localhost:", .port))
-
-  Sys.sleep(Inf)
-
-}
-
-serve_hugo(condaenv_path, 13377)
+callr::r(\(.conda_envname){
+  renv::snapshot(prompt=FALSE)
+  yaml::read_yaml("environment.yml") |>
+    purrr::discard_at("prefix") |>
+    yaml::write_yaml("environment.yml")
+})
