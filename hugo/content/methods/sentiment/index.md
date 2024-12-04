@@ -7,13 +7,17 @@ draft: true
 ---
 
 
-## Einleitung
+## Was ist Sentimentanalyse?
 
-Sentimentanalyse ist ein Verfahren der Data Science, das darauf abzielt, Meinungen, Emotionen und Einstellungen in Textdaten automatisch zu identifizieren und zu klassifizieren. Unternehmen setzen Sentimentanalyse häufig ein, um Kundenfeedback aus sozialen Medien, Rezensionen oder Umfragen zu analysieren. So können sie wertvolle Einblicke in Bereiche wie die Kundenzufriedenheit oder Markttrends gewinnen.
+Die Sentimentanalyse, auch bekannt als Stimmungsanalyse oder Opinion Mining, ist eine Methode zur automatisierten Erkennung und Bewertung der Emotionen und Meinungen, die in Textdaten zum Ausdruck kommen. Dabei ist das Ziel die Wahrnehmung eines Textes zu quantifizieren -- also zu beurteilen, ob ein Text, wie beispielsweise eine Produktbewertung, ein Kundenfeedback oder ein Social-Media-Beitrag, positiv, negativ oder neutral ist. Dies wird üblicherweise auf einer Skala von -1 bis 1, also von sehr negativ bis sehr positiv.
 
-## Lexikonbasierte Sentimentanalyse
+## Methoden der Sentimentanalyse
 
-### Funktionsweise
+Um die Vorteile der Sentiment-Analyse zu nutzen, gibt es zwei bewährte Ansätze: die lexikonbasierte Methode und die machine-learning-basierte Methode. Beide haben spezifische Stärken und Schwächen, die im Folgenden beleuchtet werden:
+
+### Lexikonbasierte Sentimentanalyse
+
+#### Funktionsweise
 
 Die lexikonbasierte Sentimentanalyse ist die traditionelle Form des Verfahrens, bei der vorab definierte Wörterlisten, sogenannte Sentimentlexika, verwendet werden, um die Stimmung eines Textes zu bestimmen. Diese Lexika enthalten Wörter, die mit positiven oder negativen Gefühlen assoziiert sind, oft mit einem entsprechenden Gewicht, das die Stärke des Ausdrucks angibt.
 
@@ -37,9 +41,9 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
 <script>$(document).ready(function(){  $('iframe#iframec944c404').attr('src', 'https://shiny.dsjlu.wirtschaft.uni-giessen.de/senti_dict/');});</script>
 <script>var domains = ['https://shiny.dsjlu.wirtschaft.uni-giessen.de'];iframeResize(  {waitForLoad: false, license: 'GPLv3', checkOrigin: domains},   '#iframec944c404');</script>
 
-## Machine-Learning-Basierte Sentimentanalyse
+### Machine-Learning-Basierte Sentimentanalyse
 
-### Funktionsweise
+#### Funktionsweise
 
 Im Gegensatz zu lexikonbasierten Ansätzen bieten vortrainierte Modelle, die auf allgemeinen Sprachmodellen wie BERT (Bidirectional Encoder Representations from Transformers) basieren, eine fortschrittliche Möglichkeit zur Sentimentanalyse. Diese Modelle lernen aus einer Vielzahl von Beispielen und liefern auch in unbekannten Domänen oder bei komplexen sprachlichen Strukturen, wie Sarkasmus, verlässlichere Ergebnisse. Sie sind nicht auf spezifische Lexika angewiesen und können durch Fine-Tuning flexibel an unterschiedliche Anwendungsfälle angepasst werden, was sie besonders leistungsstark und vielseitig macht.
 
