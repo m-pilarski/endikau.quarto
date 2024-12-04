@@ -15,7 +15,11 @@ Unstrukturierte Textdaten wie E-Mails, Kundenrezensionen oder interne Dokumente 
 
 **Natural Language Processing (NLP)** ist eine Technologie, die Computern ermöglicht, schriftliche oder gesprochene Sprache zu verstehen und zu analysieren. Sie kommt ins Spiel, wenn unstrukturierte Texte -- wie E-Mails, Kundenrezensionen oder Social-Media-Beiträge -- verarbeitet werden sollen. NLP wandelt diese Textdaten in strukturierte Daten um, die einfacher auszuwerten sind als in ihrer unstrukturierten Form.
 
+<!-- insert image -->
+
 **Text Mining** ergänzt NLP, indem es darauf abzielt, Muster, Zusammenhänge und Trends in den nun strukturierten Textdaten aufzudecken. Ähnlich wie beim „Mining" -- auf Deutsch Bergbau -- werden Texte nach wertvollen Inhalten durchforstet, um nützliche Erkenntnisse zu fördern. Während NLP auf das Verstehen und die Aufbereitung der Sprache fokussiert ist, nutzt Text Mining diese aufbereiteten Daten, um relevante Muster und Strukturen zu extrahieren. Gemeinsam bilden sie ein leistungsstarkes Duo: NLP bringt die Texte in eine nützliche Form, und Text Mining hebt das verborgene Wissen ans Licht.
+
+<!-- insert image  -->
 
 Die Kombination dieser Methoden eröffnet eine Vielzahl von Möglichkeiten für Unternehmen: Von der Optimierung des Kundenservice über die Entwicklung neuer Produkte bis hin zur Identifizierung von Markttrends.
 
