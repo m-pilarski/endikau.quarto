@@ -8,7 +8,7 @@ tags:
 ---
 
 
-{{< bs_card card-title=\"Test\" card-text=\"Lorem Ipsum\" >}}
+<span class="quarto-shortcode__-escaped" data-is-shortcode="1" data-value="{{&lt; bs_card card-title=&quot;Test&quot; card-text=&quot;Lorem Ipsum&quot; &gt;}}"></span>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor
@@ -34,4 +34,4 @@ quam quisque id diam vel. Egestas erat imperdiet sed euismod nisi. Scelerisque
 felis imperdiet proin fermentum leo vel orci porta non. Ut faucibus pulvinar
 elementum integer. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl.
 
-{{< bs_card card-title=\"Test\" card-text=\"Lorem Ipsum\" >}}
+<span class="quarto-shortcode__-escaped" data-is-shortcode="1" data-value="{{&lt; bs_card card-title=&quot;Test&quot; card-text=&quot;Lorem Ipsum&quot; &gt;}}"></span>
