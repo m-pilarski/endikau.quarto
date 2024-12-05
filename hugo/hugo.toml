@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://endikau.dsjlu.wirtschaft.uni-giessen.de"
 title = "EnDiKaU"
 theme = "endikau_theme"
 
@@ -62,3 +62,10 @@ defaultContentLanguageInSubdir = false
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 4
+        ordered = false
+
+

@@ -4,6 +4,7 @@ date: '2024-11-25T14:25:49+01:00'
 draft: true
 tags: ["foo", "bar"]
 format: hugo-md
+show_toc: true
 ---
 
 ### Von Chaos zu Klarheit: Wie Sie aus unstrukturierten Daten Wissen schöpfen
@@ -51,6 +52,14 @@ Viele Unternehmen verfügen über eine Fülle an Textdaten, die wertvolle Einbli
 ##### Interne Textdaten 
 
 Interne Datenquellen bieten Einblicke in Ihre Betriebsabläufe und die Bedürfnisse Ihrer Kunden:
+
+{{{< fa-ul >}}}
+    {{{< fa-solid-li icon="bullhorn" color="green" >}}}**Kundenkommunikation**: Verwalten Sie effizient Kundenanfragen und Support-Tickets, um den Service zu verbessern und Probleme schneller zu lösen.{{{< /fa-solid-li >}}}
+    {{{< fa-solid-li icon="bullhorn" >}}}**Kundenbefragungen**: Analysieren Sie Feedback aus Umfragen, um Trends und Wünsche direkt von Ihrer Zielgruppe zu verstehen.{{{< /fa-solid-li >}}}
+    {{{< fa-solid-li  icon="bullhorn" >}}}**Interne Kommunikation**: Ziehen Sie Erkenntnisse aus Meetingprotokollen oder Projektberichten, um Prozesse und Zusammenarbeit zu optimieren.{{{< /fa-solid-li >}}}
+    {{{< fa-solid-li  icon="bullhorn" >}}}**CRM-Systeme**: Nutzen Sie dokumentierte Kundeninteraktionen, um personalisierte Angebote und gezielte Kampagnen zu entwickeln.{{{< /fa-solid-li >}}}
+    {{{< fa-solid-li  icon="bullhorn" >}}}**Qualitätsmanagement-Daten**: Identifizieren Sie Schwachstellen in Produkten oder Prozessen durch die Analyse von Berichten und Protokollen.{{{< /fa-solid-li >}}}
+{{{< /fa-ul >}}}
 
 -	**Kundenkommunikation**: Verwalten Sie effizient Kundenanfragen und Support-Tickets, um den Service zu verbessern und Probleme schneller zu lösen.
 

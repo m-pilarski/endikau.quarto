@@ -1,6 +1,8 @@
 if(!"pak" %in% installed.packages()){install.packages("pak")}
 pak::pkg_install("callr")
 
+stopifnot(grep("/endikau.quarto", x, ignore.case = FALSE, perl = FALSE, fixed = TRUE))
+
 callr::r(\(){
   renv::init()
 })

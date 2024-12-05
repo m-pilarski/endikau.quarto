@@ -3,6 +3,7 @@ title: Sentimentanalyse
 subtitle: Automatisierte Erkennung von Stimmungen in Texten
 figtitle: "\U0001F321️"
 date: '2024-11-25T14:25:49+01:00'
+toc_show: true
 draft: true
 ---
 
@@ -23,18 +24,14 @@ Die lexikonbasierte Sentimentanalyse ist die traditionelle Form des Verfahrens, 
 
 Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bspw. SentiWS oder German Polarity Clues) abgeglichen. Die aggregierten Gewichte der Wörter aus dem Lexikon geben schließlich die Gesamtstimmung des Textes wieder.
 
-### Vor- und Nachteile
+#### Vor- und Nachteile
 
-<ul class="fa-ul" style="margin-left: var(--fa-li-margin, 1.5em);">
-<li>
-<span class="fa-li" style="color: #cf597e !important;"><i class='fa-solid fa-thumbs-up' style='color: #39b185 !important;'></i></span>Die lexikonbasierte Sentimentanalyse ist aufgrund ihrer einfachen Implementierung und des geringen Bedarfs an Rechen- und Speicherkapazität besonders für kleine Unternehmen mit begrenzten Ressourcen attraktiv.
-</li>
-<li>
-<span class="fa-li" style="color: #cf597e !important;"><i class='fa-solid fa-thumbs-down'></i></span>Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht" kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.
-</li>
-</ul>
+{{< fa-ul >}}
+{{< fa-solid-li icon=\"thumbs-up\" color=\"#39b185\" >}} Die lexikonbasierte Sentimentanalyse ist aufgrund ihrer einfachen Implementierung und des geringen Bedarfs an Rechen- und Speicherkapazität besonders für kleine Unternehmen mit begrenzten Ressourcen attraktiv.{{< /fa-solid-li >}}
+{{< fa-solid-li icon=\"thumbs-down\" color=\"#cf597e\" >}} Allerdings stößt sie in komplexen Szenarien schnell an ihre Grenzen, da sie Schwierigkeiten hat, den Kontext und die Mehrdeutigkeit von Wörtern korrekt zu erfassen. Eine Phrase wie „nicht schlecht" kann beispielsweise fälschlicherweise als negativ interpretiert werden, obwohl sie im Kontext positiv gemeint ist.{{< /fa-solid-li >}}
+{{< /fa-ul >}}
 
-### Ausprobieren
+#### Ausprobieren
 
 <iframe id="iframec944c404" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
 </iframe>
@@ -47,7 +44,7 @@ Zur Bewertung werden die Wörter des Textes mit den Einträgen des Lexikons (bsp
 
 Im Gegensatz zu lexikonbasierten Ansätzen bieten vortrainierte Modelle, die auf allgemeinen Sprachmodellen wie BERT (Bidirectional Encoder Representations from Transformers) basieren, eine fortschrittliche Möglichkeit zur Sentimentanalyse. Diese Modelle lernen aus einer Vielzahl von Beispielen und liefern auch in unbekannten Domänen oder bei komplexen sprachlichen Strukturen, wie Sarkasmus, verlässlichere Ergebnisse. Sie sind nicht auf spezifische Lexika angewiesen und können durch Fine-Tuning flexibel an unterschiedliche Anwendungsfälle angepasst werden, was sie besonders leistungsstark und vielseitig macht.
 
-### Ausprobieren
+#### Ausprobieren
 
 <iframe id="iframede8fe906" scrolling="no" loading="lazy" style="width: 100%; height: 400pt;">
 </iframe>
